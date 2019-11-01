@@ -16,7 +16,7 @@ btn256.addEventListener('click', () => {
         
         pic516x516          = new Image();
 
-        pic516x516.src      = '/src/data/image.png';
+        pic516x516.src      = '../data/image.png';
         
         pic516x516.onload = function() {  
             
