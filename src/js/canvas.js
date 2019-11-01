@@ -4,30 +4,30 @@ let canvas              = document.getElementById("canvas"),
     ctx                 = canvas.getContext('2d'),
     bgCanvas            = document.querySelector('.canvas-wrapper' ),
     codeJamBut                = document.querySelector('.codejam-bottom'),
-    btn256              = document.querySelector("body > div.canvas > div > div > div.codejam-bottom > div.codejam-bottom-right-choice > div:nth-child(3)"), 
+    // btn256              = document.querySelector("body > div.canvas > div > div > div.codejam-bottom > div.codejam-bottom-right-choice > div:nth-child(3)"), 
     btn4x4              = document.querySelector("body > div.canvas > div > div > div.codejam-bottom > div.codejam-bottom-right-choice > div:nth-child(1)"), 
     btn32x32              = document.querySelector("body > div.canvas > div > div > div.codejam-bottom > div.codejam-bottom-right-choice > div:nth-child(2)"), 
-    btnClear              = document.querySelector("body > div.canvas > div > div > div.codejam-bottom > div.codejam-bottom-right-choice > div:nth-child(4)"); 
+    btnClear              = document.querySelector("body > div.canvas > div > div > div.codejam-bottom > div.codejam-bottom-right-choice > div:nth-child(3)"); 
 
 
-btn256.addEventListener('click', () => {
+// btn256.addEventListener('click', () => {
     
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+//     ctx.clearRect(0, 0, canvas.width, canvas.height);
         
-        pic516x516          = new Image();
+//         // pic516x516          = new Image();
 
-        pic516x516.src      = "../data/image.png";
+//         // pic516x516.src      = "../data/image.png";
         
-        pic516x516.onload = function() {  
+//         pic516x516.onload = function() {  
             
-            ctx.drawImage(pic516x516, 128, 128, 256, 256);
+//             ctx.drawImage(pic516x516, 128, 128, 256, 256);
             
-            bgCanvas.style.background = 'white';
+//             bgCanvas.style.background = 'white';
 
               
-        };
+//         };
     
-});
+// });
 
 btn4x4.addEventListener('click', ()=>{
 
